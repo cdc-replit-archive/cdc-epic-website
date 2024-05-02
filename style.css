@@ -1,0 +1,74 @@
+html, body {
+  background-color:orange;
+  height: 100%;
+  width: 100%;
+}
+.hidden-link{
+  transition:font-size 1s;
+}
+.hidden-link:hover{
+  color:blue;
+  font-size:25px;
+  transition:font-size 1s;
+}
+.hidden-link:active{
+  color:red;
+}
+.b-o{
+  background-color:rgba(255,255,255,0.25);
+}
+button{
+  padding:5px;
+  border-radius:5px;
+  background-color:rgba(0,0,0,0.25);
+  border-color:none;
+  border-style:none;
+  transition: transform 0.5s;
+  transition: font-size 0.5s;
+}
+button:active{
+  transform:translateY(5px);
+  transition: all 0.25s;
+}
+button:hover{
+  background-color:rgba(0,0,0,0.15);
+  font-size:20px;
+  transition: all 0.5s;
+}
+
+.button{
+  padding:5px;
+  border-radius:5px;
+  background-color:rgba(0,0,0,0.25);
+  border-color:none;
+  border-style:none;
+  transition: transform 0.5s;
+  transition: font-size 0.5s;
+}
+.button:active{
+  transform:translateY(5px);
+  transition: all 0.25s;
+}
+.button:hover{
+  background-color:rgba(0,0,0,0.15);
+  font-size:20px;
+  transition: all 0.5s;
+}
+
+.logo{
+  border-radius:20px
+}
+.slide-in{
+  transform:translateX(100%);
+  transition:2s;
+}
+.c {
+    height: 10em;
+    position: relative }
+.c {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }

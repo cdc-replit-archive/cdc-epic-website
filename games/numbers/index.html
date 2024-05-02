@@ -1,0 +1,50 @@
+<body>
+  <div id="preload">
+    <img src="./assets/num_0.png"></img>
+    <img src="./assets/n_1.png"></img>
+    <img src="./assets/n_2.png"></img>
+    <img src="./assets/n_3.png"></img>
+    <img src="./assets/n_4.png"></img>
+    <img src="./assets/n_5.png"></img>
+    <img src="./assets/n_6.png"></img>
+    <img src="./assets/n_7.png"></img>
+    <img src="./assets/n_8.png"></img>
+    <img src="./assets/n_9.png"></img>
+    <audio id="ost" src="/number_puzzle_ost.wav"></audio>
+    <audio id="tada" src="/tada.wav"></audio>
+    <audio id="win_a" src="/groovy.wav"></audio>
+  </div>
+  <div id="main" class="c">
+    <center>
+      <h1>Crack the password.</h1>
+      <h2 id="hint">Hint</h2>
+
+      <button><img uid=1 onclick=up(this) src="./assets/arrow_up.png"></img></button>
+      <button><img uid=2 onclick=up(this) src="./assets/arrow_up.png"></img></button>
+      <button><img uid=3 onclick=up(this) src="./assets/arrow_up.png"></img></button>
+      <button><img uid=4 onclick=up(this) src="./assets/arrow_up.png"></img></button>
+      <p></p>
+      <div id="displays">
+        <img id="disp1" num=0 src="./assets/n_9.png"></img>
+        <img id="disp2" num=0 src="./assets/n_5.png"></img>
+        <img id="disp3" num=0 src="./assets/n_9.png"></img>
+        <img id="disp4" num=0 src="./assets/n_9.png"></img>
+      </div>
+      <p></p>
+      <button><img did=1 onclick=down(this) src="./assets/arrow_down.png"></img></button>
+      <button><img did=2 onclick=down(this) src="./assets/arrow_down.png"></img></button>
+      <button><img did=3 onclick=down(this) src="./assets/arrow_down.png"></img></button>
+      <button><img did=4 onclick=down(this) src="./assets/arrow_down.png"></img></button>
+      <p></p>
+      <button onclick=prepare()>Reset</button>
+
+    </center>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+  </link>
+
+</body>
