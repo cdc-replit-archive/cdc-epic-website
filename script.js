@@ -17,7 +17,7 @@ eaudio.play()
 window.onmousedown = function (){
   if ( localStorage.getItem(btoa("no_switch")) != btoa("true")){
     document.body.innerHTML = "Wonderful."
-  audio = new Audio("https://cdc-epic-website.cddisccase.repl.co/glitch.wav");
+  audio = new Audio("cdc-epic-website/glitch.wav");
   audio.play()
   setTimeout(e,2100)
   }
@@ -28,7 +28,7 @@ window.onmousedown = function (){
 window.touchstart = function (){
   if ( localStorage.getItem(btoa("no_switch")) != btoa("true")){
     document.body.innerHTML = "Wonderful."
-  audio = new Audio("https://cdc-epic-website.cddisccase.repl.co/glitch.wav");
+  audio = new Audio("cdc-epic-website/glitch.wav");
   audio.play()
   setTimeout(e,2100)
   }
@@ -37,7 +37,7 @@ window.touchstart = function (){
   }
 }
 function e(){
-  window.location.replace("/blog-post-20210911")
+  window.location.replace("cdc-epic-website/blog-post-20210911")
 }
 function open_page(b){
   if (parseInt(b.getAttribute("pageid"))==5){
