@@ -1,7 +1,7 @@
-let beep = new Audio("/beep.wav")
-let sw = new Audio("/switch.wav")
-let aud = new Audio("/glitch2.wav")
-let noise = new Audio("/white_noise.wav")
+let beep = new Audio("/cdc-epic-website/beep.wav")
+let sw = new Audio("/cdc-epic-website/switch.wav")
+let aud = new Audio("/cdc-epic-website/glitch2.wav")
+let noise = new Audio("/cdc-epic-website/white_noise.wav")
 noise.loop = true
 beep.loop = true
 beep.play()
