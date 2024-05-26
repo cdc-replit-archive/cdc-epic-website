@@ -1,8 +1,3 @@
-if (localStorage.getItem(btoa("noa")) == btoa("true")){
-  empty_page()
-  window.location.replace("/404.html")
-}
-function empty_page(){
-  document.body.style = ""
-  document.body.innerHTML = ""
-}
+/*
+  Moved to 90d372797d8b05ed1668f1485cfc90b2ae7d139c.js
+*/
